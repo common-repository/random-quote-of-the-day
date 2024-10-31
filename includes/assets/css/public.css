@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'EntypoSocial';
+    src: url('fonts/entypo-social.eot');
+    src: url('fonts/entypo-social.eot?#iefix') format('embedded-opentype'),
+         url('fonts/entypo-social.woff') format('woff'),
+         url('fonts/entypo-social.ttf') format('truetype'),
+         url('fonts/entypo-social.svg#EntypoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.entypo-social {
+	font-family: 'EntypoSocial';
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 0;
+	-webkit-font-smoothing: antialiased;
+}
+.entypo-social.twitter:before{ content:'\F309'; }
+.entypo-social.facebook:before{ content:'\F30C'; }
+.entypo-social.googlep:before{ content:'\F30F'; }
+.entypo-social.pinterest:before{ content:'\F312'; }
+.entypo-social.tumblr:before{ content:'\F315'; }
+.entypo-social.instagram:before{ content:'\F32D'; }
+
+
+.curatedquotes-widget {
+	margin-bottom: 1em;
+}
+
+.curatedquotes-widget-title {
+	background: #282524;
+	color: #fff;
+	font: normal 400 18px/1 "Montserrat", "Open Sans", sans-serif;
+	padding: 15px;
+	letter-spacing: 0;
+}
+.curatedquotes-widget-copy {
+	background: #e5e5e5;
+	color: #6f6b62;
+	font: normal 400 12px/1 "Open Sans", sans-serif;
+	padding: 10px 15px;
+}
+.curatedquotes-widget-copy a,
+.curatedquotes-widget-copy a:link,
+.curatedquotes-widget-copy a:hover,
+.curatedquotes-widget-copy a:focus,
+.curatedquotes-widget-copy a:active {
+	color: #6f6b62!important;
+	text-decoration: none!important;
+}
+.curatedquotes-widget-copy a:hover {
+	color: #282524!important;
+}
+
+.curatedquotes-widget-body {
+	padding: 15px 14px;
+	border: 1px solid transparent;
+	border-top: 0;
+	border-bottom: 0;
+	overflow: hidden;
+	zoom: 1;
+	font: normal 400 10px/1 "Open Sans", sans-serif;
+}
+.curatedquotes-widget-author {
+	border-bottom: 1px solid transparent;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+.curatedquotes-widget-author-image {
+	float: left;
+	width: 75px;
+	height: auto;
+	margin-right: 10px;
+}
+.curatedquotes-widget-author-image img {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.curatedquotes-widget-author-content {
+	overflow: hidden;
+	min-height: 75px;
+}
+.curatedquotes-widget-author-name {
+	font: normal 18px/1 "Montserrat", "Open Sans", sans-serif;
+	margin-bottom: 10px;
+}
+.curatedquotes-widget-author-lived {
+	font-size: 12px;
+}
+
+.curatedquotes-widget-quote {
+	font: italic 16px/28px "Droid Serif", "Georgia", "Times New Roman", Times, serif;
+}
+
+.curatedquotes-widget-social {
+	border-top: 1px solid transparent;
+	padding-top: 15px;
+	margin-top: 15px;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.curatedquotes-widget-social span,
+.curatedquotes-widget-social a {
+	margin-right: 5px;
+	vertical-align: middle;
+	text-decoration: none!important;
+}
+
+/************
+	Light
+*************/
+.curatedquotes-widget-color-light .curatedquotes-widget-body {
+	border-color: #e5e5e5;
+	background: #fff;
+	color: #6f6b62;
+}
+
+.curatedquotes-widget-color-light .curatedquotes-widget-social,
+.curatedquotes-widget-color-light .curatedquotes-widget-author {
+	border-color: #e5e5e5;
+}
+.curatedquotes-widget-color-light .curatedquotes-widget-author-name,
+.curatedquotes-widget-color-light .curatedquotes-widget-author-name a,
+.curatedquotes-widget-color-light .curatedquotes-widget-author-name a:link,
+.curatedquotes-widget-color-light .curatedquotes-widget-author-name a:hover,
+.curatedquotes-widget-color-light .curatedquotes-widget-author-name a:focus,
+.curatedquotes-widget-color-light .curatedquotes-widget-author-name a:active {
+	color: #ee6342!important;
+	text-decoration: none;
+}
+.curatedquotes-widget-color-light .curatedquotes-widget-social a,
+.curatedquotes-widget-color-light .curatedquotes-widget-social a:link,
+.curatedquotes-widget-color-light .curatedquotes-widget-social a:hover,
+.curatedquotes-widget-color-light .curatedquotes-widget-social a:focus,
+.curatedquotes-widget-color-light .curatedquotes-widget-social a:active {
+	color: #ee6342!important;
+}
+.curatedquotes-widget-color-light .curatedquotes-widget-quote,
+.curatedquotes-widget-color-light .curatedquotes-widget-quote a,
+.curatedquotes-widget-color-light .curatedquotes-widget-quote a:link,
+.curatedquotes-widget-color-light .curatedquotes-widget-quote a:hover,
+.curatedquotes-widget-color-light .curatedquotes-widget-quote a:focus,
+.curatedquotes-widget-color-light .curatedquotes-widget-quote a:active {
+	color: #6f6b62!important;
+	text-decoration: none;
+}
+
+
+
+
+/************
+	Orange
+*************/
+.curatedquotes-widget-color-orange .curatedquotes-widget-body {
+	border-color: #ee6342;
+	background: #ee6342;
+	color: #fff;
+}
+
+.curatedquotes-widget-color-orange .curatedquotes-widget-social,
+.curatedquotes-widget-color-orange .curatedquotes-widget-author {
+	border-color: #d9593c;
+}
+.curatedquotes-widget-color-orange .curatedquotes-widget-author-name,
+.curatedquotes-widget-color-orange .curatedquotes-widget-author-name a,
+.curatedquotes-widget-color-orange .curatedquotes-widget-author-name a:link,
+.curatedquotes-widget-color-orange .curatedquotes-widget-author-name a:hover,
+.curatedquotes-widget-color-orange .curatedquotes-widget-author-name a:focus,
+.curatedquotes-widget-color-orange .curatedquotes-widget-author-name a:active {
+	color: #fff!important;
+	text-decoration: none;
+}
+
+.curatedquotes-widget-color-orange .curatedquotes-widget-author-lived {
+	color: #282b24;
+}
+.curatedquotes-widget-color-orange .curatedquotes-widget-social {
+	color: #404040;
+}
+.curatedquotes-widget-color-orange .curatedquotes-widget-social a,
+.curatedquotes-widget-color-orange .curatedquotes-widget-social a:link,
+.curatedquotes-widget-color-orange .curatedquotes-widget-social a:hover,
+.curatedquotes-widget-color-orange .curatedquotes-widget-social a:focus,
+.curatedquotes-widget-color-orange .curatedquotes-widget-social a:active {
+	color: #fff!important;
+	text-decoration: none;
+}
+.curatedquotes-widget-color-orange .curatedquotes-widget-quote,
+.curatedquotes-widget-color-orange .curatedquotes-widget-quote a,
+.curatedquotes-widget-color-orange .curatedquotes-widget-quote a:link,
+.curatedquotes-widget-color-orange .curatedquotes-widget-quote a:hover,
+.curatedquotes-widget-color-orange .curatedquotes-widget-quote a:focus,
+.curatedquotes-widget-color-orange .curatedquotes-widget-quote a:active {
+	color: #fff!important;
+	text-decoration: none;
+}
+
+/************
+	Dark
+*************/
+.curatedquotes-widget-color-dark .curatedquotes-widget-title {
+	background: #ee6342;
+}
+.curatedquotes-widget-color-dark .curatedquotes-widget-body {
+	border-color: #2a2b25;
+	background: #2a2b25;
+	color: #fff;
+}
+.curatedquotes-widget-color-dark .curatedquotes-widget-social,
+.curatedquotes-widget-color-dark .curatedquotes-widget-author {
+	border-color: #3b3c36;
+}
+.curatedquotes-widget-color-dark .curatedquotes-widget-author-name,
+.curatedquotes-widget-color-dark .curatedquotes-widget-author-name a,
+.curatedquotes-widget-color-dark .curatedquotes-widget-author-name a:link,
+.curatedquotes-widget-color-dark .curatedquotes-widget-author-name a:hover,
+.curatedquotes-widget-color-dark .curatedquotes-widget-author-name a:focus,
+.curatedquotes-widget-color-dark .curatedquotes-widget-author-name a:active {
+	color: #fff!important;
+	text-decoration: none;
+}
+.curatedquotes-widget-color-dark .curatedquotes-widget-author-lived,
+.curatedquotes-widget-color-dark .curatedquotes-widget-social {
+	color: #90908e;
+}
+.curatedquotes-widget-color-dark .curatedquotes-widget-social a,
+.curatedquotes-widget-color-dark .curatedquotes-widget-social a:link,
+.curatedquotes-widget-color-dark .curatedquotes-widget-social a:hover,
+.curatedquotes-widget-color-dark .curatedquotes-widget-social a:focus,
+.curatedquotes-widget-color-dark .curatedquotes-widget-social a:active {
+	color: #fff!important;
+	text-decoration: none;
+}
+
+.curatedquotes-widget-color-dark .curatedquotes-widget-quote,
+.curatedquotes-widget-color-dark .curatedquotes-widget-quote a,
+.curatedquotes-widget-color-dark .curatedquotes-widget-quote a:link,
+.curatedquotes-widget-color-dark .curatedquotes-widget-quote a:hover,
+.curatedquotes-widget-color-dark .curatedquotes-widget-quote a:focus,
+.curatedquotes-widget-color-dark .curatedquotes-widget-quote a:active {
+	color: #fff!important;
+	text-decoration: none;
+}
